@@ -1,4 +1,4 @@
-# Lab 3: Marketing Commander
+# Lab 3: Marketing Assistant
 
 **Time:** 15 min | **Pattern:** Multi-tool (Analyst + Search + cross-department)
 
