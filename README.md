@@ -45,14 +45,7 @@ Run these SQL scripts before the session:
 |------|-------|-------|
 | Finance | FINANCE_AGENT | 6 stored procedures |
 | Operations | OPS_ANALYTICS (semantic view) | Cortex Analyst |
-| Marketing | MARKETING_COMMANDER | 2 sub-agents (multi-agent!) |
-
-Marketing Multi-Agent Structure:
-```
-MARKETING_COMMANDER (orchestrator)
-    ├── CAMPAIGN_DATA_AGENT (Cortex Analyst - metrics)
-    └── BRAND_KNOWLEDGE_AGENT (Cortex Search - guidelines)
-```
+| Marketing | MARKETING_ASSISTANT | Multiple Tools |
 
 ---
 
@@ -92,6 +85,5 @@ DROP WAREHOUSE IF EXISTS HOL_AGENT_WH;
 |-------|----------|
 | Agent not finding tools | Ensure setup scripts completed successfully |
 | Semantic view errors | Check that views were created before semantic model |
-| Multi-agent timeout | Increase orchestration budget in agent spec |
 | Search not returning results | Verify Cortex Search service is running |
 
