@@ -14,7 +14,7 @@ Total Duration: 45-60 minutes
 |------|------|-----------|-------------------|
 | Finance Agent | Accounts Payable | Process invoices, catch the vendor problem | Tool-calling (stored procedures) |
 | Ops Monitor | Warehouse Operations | Investigate the supply chain ripple effect | Cortex Analyst (semantic model) |
-| Marketing Commander | Marketing | Plan campaigns with data + brand strategy | Multi-Agent (Search + Analyst) |
+| Marketing Assistant | Marketing | Plan campaigns with data + brand strategy | Multiple Tools|
 
 
 ---
